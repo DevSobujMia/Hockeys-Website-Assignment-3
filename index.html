@@ -15,27 +15,38 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="m-0 p-0 box-border font-manrope">
+  <body class="bg-white m-0 p-0 box-border font-manrope">
     <div class="container h-screen max-w-[1170px] mx-auto">
       <header class="flex justify-between text-center items-center">
         <h1
-          class="text-4xl font-bold text-center items-center justify-center cursor-pointer"
+          class="text-4xl text-zinc-700 font-bold text-center text- items-center justify-center cursor-pointer"
         >
           Hockey<span class="text-red-500">'</span>s
         </h1>
         <nav
-          class="flex justify-center items-center no-underline m-3 p-3 text-center gap-8"
+          class="text-zinc-700 flex justify-center items-center no-underline m-3 p-3 text-center gap-8"
         >
-          <a href="#" class="font-medium hover:text-red-500">Home</a>
-          <a href="#" class="font-medium hover:text-red-500">About</a>
-          <a href="#" class="font-medium hover:text-red-500">Pages</a>
-          <a href="#" class="font-medium hover:text-red-500">Blog</a>
-          <a href="#" class="font-medium hover:text-red-500">Contact</a>
+          <a href="#" class="font-medium hover:text-red-500 transition-all"
+            >Home</a
+          >
+          <a href="#" class="font-medium hover:text-red-500 transition-all"
+            >About</a
+          >
+          <a href="#" class="font-medium hover:text-red-500 transition-all"
+            >Pages</a
+          >
+          <a href="#" class="font-medium hover:text-red-500 transition-all"
+            >Blog</a
+          >
+          <a href="#" class="font-medium hover:text-red-500 transition-all"
+            >Contact</a
+          >
         </nav>
         <div class="flex justify-center items-center text-center">
           <i
-            class="fas fa-search mx-3 text-[#89898B] text-xl cursor-pointer"
+            class="fas fa-search mr-5 text-[#89898B] text-xl cursor-pointer"
           ></i>
           <button
             class="my-7 py-3 px-6 bg-red-500 rounded-lg text-white text-xl justify-between items-center text-center"
@@ -44,8 +55,152 @@
           </button>
         </div>
       </header>
+
+      <!-- New section start -->
+
       <section>
-        <button class="btn btn-success">Click Me</button>
+        <div class="carousel w-full">
+          <div id="slide1" class="carousel-item relative w-full">
+            <img
+              src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <img
+              src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <img
+              src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+            <img
+              src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
+              class="w-full"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-center mt-16">
+        <h2 class="text-3xl text-zinc-700 font-semibold">
+          Professional Hockeys Club
+        </h2>
+        <p class="text-zinc-600 font-medium leading-6 text-center m-5">
+          Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+          placerat <br />
+          dolor. Purus urna in sit nullam proin.
+        </p>
+      </section>
+
+      <section>
+        <div class="all">
+          <!-- 1st circle -->
+          <div class="circle-box">
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full-1">
+                  <div class="fill-1"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill-1"></div>
+                </div>
+                <div class="inside-circle">87%</div>
+              </div>
+            </div>
+            <div class="progress-name">
+              <h3>Prayer Facility</h3>
+              <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+            </div>
+          </div>
+
+          <!-- 2nd circle -->
+          <div class="circle-box">
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full-2">
+                  <div class="fill-2"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill-2"></div>
+                </div>
+                <div class="inside-circle">95%</div>
+              </div>
+            </div>
+            <div class="progress-name">
+              <h3>Experienced Coach</h3>
+              <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+            </div>
+          </div>
+
+          <!-- 3rd circle -->
+
+          <div class="circle-box">
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full-3">
+                  <div class="fill-3"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill-3"></div>
+                </div>
+                <div class="inside-circle">90%</div>
+              </div>
+            </div>
+            <div class="progress-name">
+              <h3>Senior Player</h3>
+              <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+            </div>
+          </div>
+
+          <!-- 4th circle -->
+
+          <div class="circle-box">
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full-4">
+                  <div class="fill-4"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill-4"></div>
+                </div>
+                <div class="inside-circle">80%</div>
+              </div>
+            </div>
+            <div class="progress-name">
+              <h3>Training Ground</h3>
+              <p>Amet consectetur. Condimentum dignissim adipiscing.</p>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </body>
