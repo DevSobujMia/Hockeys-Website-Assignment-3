@@ -151,6 +151,44 @@
   }
 }
 
+.img-box {
+    width: 1170px;
+    height: 338px;
+}
+
+.img-1 {
+    background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("Images/2.png");
+    background-size: cover;
+}
+
+.img-2 {
+    background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("Images/3.png");
+    background-size: cover;
+}
+
+.img-3 {
+    width: 1170px;
+    height: 450px;
+    background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("Images/4.png");
+    background-size: cover;
+    background-position: center;
+}
+
 @media screen and (max-width: 580px) {
   .all {
     display: inline-block;
