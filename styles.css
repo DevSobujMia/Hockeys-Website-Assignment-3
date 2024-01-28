@@ -307,6 +307,112 @@
   transform: rotate(45deg);
 }
 
+/* new section */
+
+.sms {
+  width: 1170px;
+}
+
+.contact {
+  width: 474px;
+  height: 764px;
+  border-radius: 16px;
+  border: 1px solid rgba(19, 19, 24, 0.10);
+  padding: 50px;
+}
+
+.contact-number {
+  width: 374px;
+  height: 216px;
+  border-radius: 16px;
+  background: rgba(188, 237, 109, 0.10);
+  padding: 40px;
+}
+
+.contact-email {
+  width: 374px;
+  height: 216px;
+  border-radius: 16px;
+  background: rgba(253, 221, 95, 0.10);
+  padding: 40px;
+}
+
+.contact-location {
+  width: 374px;
+  height: 184px;
+  border-radius: 16px;
+  background: rgba(98, 156, 243, 0.10);
+  padding: 30px;
+}
+
+.massage-section {
+  max-width: 672px;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #131318;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.input-group.inline {
+  display: flex;
+  gap: 20px;
+}
+
+.input-group.inline input {
+  width: 320px;
+  height: 64px;
+  border-radius: 12px;
+  background-color: #13131312;
+  border: 1px solid #13131312;
+  color: #000;
+}
+
+.input-group.full-width textarea {
+  width: 100%;
+  height: 370px;
+  border-radius: 12px;
+  background: rgba(19, 19, 24, 0.03);
+}
+
+.input-group.full-width button {
+  width: 100%;
+}
+
+.alternative-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 24px;
+  background-color: #FF4240;
+  color: #fff;
+  border: 1px solid #FF4240;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
 
 @media screen and (max-width: 580px) {
   .all {
