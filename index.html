@@ -344,7 +344,7 @@
 
           <div class="product flex items-center">
             <div class="mr-5 rounded-xl">
-              <img src="Images/5.png" alt="Product Image" />
+              <img src="Images/6.png" alt="Product Image" />
             </div>
             <div>
               <div class="flex items-center">
@@ -396,7 +396,7 @@
         <div class="flex justify-between my-7">
           <div class="product flex items-center">
             <div class="mr-5 rounded-xl">
-              <img src="Images/5.png" alt="Product Image" />
+              <img src="Images/7.png" alt="Product Image" />
             </div>
             <div>
               <div class="flex items-center">
@@ -446,7 +446,7 @@
 
           <div class="product flex items-center">
             <div class="mr-5 rounded-xl">
-              <img src="Images/5.png" alt="Product Image" />
+              <img src="Images/8.png" alt="Product Image" />
             </div>
             <div>
               <div class="flex items-center">
@@ -498,7 +498,7 @@
         <div class="flex justify-between">
           <div class="product flex items-center">
             <div class="mr-5 rounded-xl">
-              <img src="Images/5.png" alt="Product Image" />
+              <img src="Images/9.png" alt="Product Image" />
             </div>
             <div>
               <div class="flex items-center">
@@ -548,7 +548,7 @@
 
           <div class="product flex items-center">
             <div class="mr-5 rounded-xl">
-              <img src="Images/5.png" alt="Product Image" />
+              <img src="Images/10.png" alt="Product Image" />
             </div>
             <div>
               <div class="flex items-center">
@@ -613,7 +613,118 @@
 
       <!-- new section -->
 
-      <section></section>
+      <section class="faq flex justify-between border">
+        <div>
+          <img src="Images/11.png" alt="" />
+        </div>
+
+        <div>
+          <div class="faq-container">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Our Equipment</span>
+                <span>+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  We provide high-quality equipment for various activities,
+                  ensuring your safety and enjoyment.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Hockey Training</span>
+                <span>+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Our hockey training programs are designed to enhance your
+                  skills and take your game to the next level.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ Item 3 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Private Lessons</span>
+                <span>+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  We offer personalized private lessons to cater to your
+                  individual needs and help you achieve your goals.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ Item 4 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Ski Touring</span>
+                <span>+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Explore the thrill of ski touring with our expert guides,
+                  ensuring a safe and unforgettable experience.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ Item 5 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Booking</span>
+                <span>+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Booking our services is quick and easy. Simply follow the
+                  instructions on our website to secure your spot.
+                </p>
+              </div>
+            </div>
+
+            <!-- FAQ Item 6 -->
+            <div class="faq-item">
+              <div class="faq-question">
+                <span>Pricing</span>
+                <span>+</span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Check our pricing page for detailed information on the costs
+                  associated with our various services and packages.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- "For this section, I would like to acknowledge that I sought help from Stack Overflow." -->
+
+          <script>
+            document.querySelectorAll(".faq-question").forEach((question) => {
+              question.addEventListener("click", () => {
+                const item = question.parentElement;
+                const isOpen = item.classList.toggle("open");
+
+                document
+                  .querySelectorAll(".faq-item.open")
+                  .forEach((openItem) => {
+                    if (openItem !== item) {
+                      openItem.classList.remove("open");
+                    }
+                  });
+              });
+            });
+          </script>
+        </div>
+      </section>
     </div>
   </body>
 </html>
