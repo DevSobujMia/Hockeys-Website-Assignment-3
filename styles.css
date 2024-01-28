@@ -1,3 +1,29 @@
+.slider-title {
+  width: 500px;
+  height: 120px;
+  background-color: #131318;
+  padding: 18px;
+  margin: 5px;
+  border-radius: 16px;
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+
+.slider-title h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.slider-title p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
 .all {
   display: flex;
   justify-content: space-around;
@@ -152,41 +178,57 @@
 }
 
 .img-box {
-    width: 1170px;
-    height: 338px;
+  width: 1170px;
+  height: 338px;
 }
 
 .img-1 {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
       180deg,
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
     url("Images/2.png");
-    background-size: cover;
+  background-size: cover;
 }
 
 .img-2 {
-    background-image: linear-gradient(
+  background-image: linear-gradient(
       180deg,
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
     url("Images/3.png");
-    background-size: cover;
+  background-size: cover;
 }
 
 .img-3 {
-    width: 1170px;
-    height: 450px;
-    background-image: linear-gradient(
+  width: 1170px;
+  height: 450px;
+  background-image: linear-gradient(
       180deg,
       rgba(19, 19, 24, 0.8) 0%,
       rgba(19, 19, 24, 0) 100%
     ),
     url("Images/4.png");
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.product {
+  border-radius: 16px;
+  border: 1px solid rgba(19, 19, 24, 0.10);
+  width: 573px;
+  height: 218px;
+  padding-left: 20px;
+}
+
+.product-star {
+  margin-right: 8px;
+}
+
+.Delivery-Icon {
+  margin-right: 4px;
 }
 
 @media screen and (max-width: 580px) {
@@ -194,4 +236,21 @@
     display: inline-block;
     padding: 20px;
   }
+
+  .img-box {
+    max-width: 100%; /* Adjust the max-width for smaller screens */
+  }
+
+  .img-3 {
+    max-width: 100%;
+  }
+
+  .fas {
+    display: none;
+  }
+
+  .slider-title {
+    padding: 20px;
+    position: relative;
+    bottom: 0;
 }

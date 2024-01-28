@@ -46,7 +46,7 @@
         </nav>
         <div class="flex justify-center items-center text-center">
           <i
-            class="fas fa-search mr-5 text-[#89898B] text-xl cursor-pointer"
+            class="fas fa-search mr-5 text-[#89898B] text-xl cursor-pointer hidden"
           ></i>
           <button
             class="my-7 py-3 px-6 bg-red-500 rounded-lg text-white text-xl justify-between items-center text-center"
@@ -58,13 +58,10 @@
 
       <!-- New section start -->
 
-      <section>
+      <section class="my-14 relative">
         <div class="carousel w-full h-auto">
           <div id="slide1" class="carousel-item relative w-full">
-            <img
-              src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-              class="w-full"
-            />
+            <img src="Images/1.png" class="w-full" />
             <div
               class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
             >
@@ -108,6 +105,14 @@
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
+        </div>
+
+        <div class="slider-title">
+          <h3 class="">Meet all the heroes from the field</h3>
+          <p class="">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
         </div>
       </section>
 
@@ -218,7 +223,7 @@
       </section>
 
       <section class="text-white">
-        <div class="img-box flex gap-4">
+        <div class="img-box flex flex-col gap-4">
           <div class="img-1 rounded-2xl relative">
             <h2 class="text-3xl font-bold mt-28 ml-8">Junior Program</h2>
             <p class="ml-8 mt-4">
@@ -232,12 +237,12 @@
           </div>
           <div class="img-2 rounded-2xl">
             <h2 class="text-3xl font-bold mt-28 ml-8">Teenager Program</h2>
-            <p class="ml-8 mt-4">
+            <p class="ml-8 mt-4 m-4">
               Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc
               morbi nulla. Tortor congue sed et in.
             </p>
-            <button class="bg-red-500 ml-8 py-4 px-8 text-xl rounded-lg my-4">
+            <button class="bg-red-500 ml-8 py-4 px-8 text-xl rounded-lg">
               Register Now!
             </button>
           </div>
@@ -245,15 +250,344 @@
 
         <div class="img-3 my-4 rounded-2xl relative">
           <div class="p-20">
-            <h2 class="text-3xl font-bold absolute bottom-56">Professional Program</h2>
+            <h2 class="text-3xl font-bold absolute bottom-56">
+              Professional Program
+            </h2>
             <p class="absolute bottom-36">
-              Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
-              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc <br>
+              Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+              <br />
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc
+              <br />
               morbi nulla. Tortor congue sed et in.
             </p>
-            <button class="bg-red-500 py-4 px-8 text-xl rounded-lg my-4 absolute bottom-12">
+            <button
+              class="bg-red-500 py-4 px-8 text-xl rounded-lg my-4 absolute bottom-12"
+            >
               Register Now!
             </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="p-1 m-1">
+        <div class="p-3 mx-auto text-center my-20">
+          <h1 class="text-4xl font-semibold text-primary mb-4">
+            Our New Products
+          </h1>
+          <p class="text-secondary">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat <br />
+            dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+      </section>
+
+      <!-- new section -->
+
+      <section class="">
+        <div class="flex justify-between">
+          <div class="product flex items-center">
+            <div class="mr-5 rounded-xl">
+              <img src="Images/5.png" alt="Product Image" />
+            </div>
+            <div>
+              <div class="flex items-center">
+                <img
+                  src="Images/Frame.png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">5.0</span>
+                <img
+                  src="Images/Frame (1).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">20</span>
+                <img
+                  src="Images/Frame (2).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="text-secondary text-lg font-medium">200</span>
+              </div>
+              <div>
+                <h3 class="text-primary text-xl font-extrabold my-4">
+                  World Cup Flags Football
+                </h3>
+                <p class="text-secondary text-lg font-semibold">
+                  Dolor sit amet consectetur. Ut urna diam <br />
+                  quis sagittis.
+                </p>
+              </div>
+              <div class="flex justify-between mt-4">
+                <span class="text-red-500 text-xl mr-5 font-extrabold"
+                  >Price - $22.00</span
+                >
+                <img
+                  src="Images/Frame4.svg"
+                  alt="Delivery Icon"
+                  class="Delivery-Icon"
+                />
+                <span class="text-secondary font-medium mr-2"
+                  >Delivery Fee: Free</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="product flex items-center">
+            <div class="mr-5 rounded-xl">
+              <img src="Images/5.png" alt="Product Image" />
+            </div>
+            <div>
+              <div class="flex items-center">
+                <img
+                  src="Images/Frame.png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">5.0</span>
+                <img
+                  src="Images/Frame (1).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">20</span>
+                <img
+                  src="Images/Frame (2).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="text-secondary text-lg font-medium">200</span>
+              </div>
+              <div>
+                <h3 class="text-primary text-xl font-extrabold my-4">
+                  World Cup Flags Football
+                </h3>
+                <p class="text-secondary text-lg font-semibold">
+                  Dolor sit amet consectetur. Ut urna diam <br />
+                  quis sagittis.
+                </p>
+              </div>
+              <div class="flex justify-between mt-4">
+                <span class="text-red-500 text-xl mr-5 font-extrabold"
+                  >Price - $22.00</span
+                >
+                <img
+                  src="Images/Frame4.svg"
+                  alt="Delivery Icon"
+                  class="Delivery-Icon"
+                />
+                <span class="text-secondary font-medium mr-2"
+                  >Delivery Fee: Free</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-between my-7">
+          <div class="product flex items-center">
+            <div class="mr-5 rounded-xl">
+              <img src="Images/5.png" alt="Product Image" />
+            </div>
+            <div>
+              <div class="flex items-center">
+                <img
+                  src="Images/Frame.png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">5.0</span>
+                <img
+                  src="Images/Frame (1).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">20</span>
+                <img
+                  src="Images/Frame (2).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="text-secondary text-lg font-medium">200</span>
+              </div>
+              <div>
+                <h3 class="text-primary text-xl font-extrabold my-4">
+                  World Cup Flags Football
+                </h3>
+                <p class="text-secondary text-lg font-semibold">
+                  Dolor sit amet consectetur. Ut urna diam <br />
+                  quis sagittis.
+                </p>
+              </div>
+              <div class="flex justify-between mt-4">
+                <span class="text-red-500 text-xl mr-5 font-extrabold"
+                  >Price - $22.00</span
+                >
+                <img
+                  src="Images/Frame4.svg"
+                  alt="Delivery Icon"
+                  class="Delivery-Icon"
+                />
+                <span class="text-secondary font-medium mr-2"
+                  >Delivery Fee: Free</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="product flex items-center">
+            <div class="mr-5 rounded-xl">
+              <img src="Images/5.png" alt="Product Image" />
+            </div>
+            <div>
+              <div class="flex items-center">
+                <img
+                  src="Images/Frame.png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">5.0</span>
+                <img
+                  src="Images/Frame (1).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">20</span>
+                <img
+                  src="Images/Frame (2).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="text-secondary text-lg font-medium">200</span>
+              </div>
+              <div>
+                <h3 class="text-primary text-xl font-extrabold my-4">
+                  World Cup Flags Football
+                </h3>
+                <p class="text-secondary text-lg font-semibold">
+                  Dolor sit amet consectetur. Ut urna diam <br />
+                  quis sagittis.
+                </p>
+              </div>
+              <div class="flex justify-between mt-4">
+                <span class="text-red-500 text-xl mr-5 font-extrabold"
+                  >Price - $22.00</span
+                >
+                <img
+                  src="Images/Frame4.svg"
+                  alt="Delivery Icon"
+                  class="Delivery-Icon"
+                />
+                <span class="text-secondary font-medium mr-2"
+                  >Delivery Fee: Free</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-between">
+          <div class="product flex items-center">
+            <div class="mr-5 rounded-xl">
+              <img src="Images/5.png" alt="Product Image" />
+            </div>
+            <div>
+              <div class="flex items-center">
+                <img
+                  src="Images/Frame.png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">5.0</span>
+                <img
+                  src="Images/Frame (1).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">20</span>
+                <img
+                  src="Images/Frame (2).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="text-secondary text-lg font-medium">200</span>
+              </div>
+              <div>
+                <h3 class="text-primary text-xl font-extrabold my-4">
+                  World Cup Flags Football
+                </h3>
+                <p class="text-secondary text-lg font-semibold">
+                  Dolor sit amet consectetur. Ut urna diam <br />
+                  quis sagittis.
+                </p>
+              </div>
+              <div class="flex justify-between mt-4">
+                <span class="text-red-500 text-xl mr-5 font-extrabold"
+                  >Price - $22.00</span
+                >
+                <img
+                  src="Images/Frame4.svg"
+                  alt="Delivery Icon"
+                  class="Delivery-Icon"
+                />
+                <span class="text-secondary font-medium mr-2"
+                  >Delivery Fee: Free</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="product flex items-center">
+            <div class="mr-5 rounded-xl">
+              <img src="Images/5.png" alt="Product Image" />
+            </div>
+            <div>
+              <div class="flex items-center">
+                <img
+                  src="Images/Frame.png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">5.0</span>
+                <img
+                  src="Images/Frame (1).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="mr-5 text-secondary text-lg font-medium">20</span>
+                <img
+                  src="Images/Frame (2).png"
+                  alt="Star Icon"
+                  class="product-star"
+                />
+                <span class="text-secondary text-lg font-medium">200</span>
+              </div>
+              <div>
+                <h3 class="text-primary text-xl font-extrabold my-4">
+                  World Cup Flags Football
+                </h3>
+                <p class="text-secondary text-lg font-semibold">
+                  Dolor sit amet consectetur. Ut urna diam <br />
+                  quis sagittis.
+                </p>
+              </div>
+              <div class="flex justify-between mt-4">
+                <span class="text-red-500 text-xl mr-5 font-extrabold"
+                  >Price - $22.00</span
+                >
+                <img
+                  src="Images/Frame4.svg"
+                  alt="Delivery Icon"
+                  class="Delivery-Icon"
+                />
+                <span class="text-secondary font-medium mr-2"
+                  >Delivery Fee: Free</span
+                >
+              </div>
+            </div>
           </div>
         </div>
       </section>
